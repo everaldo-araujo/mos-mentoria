@@ -1,0 +1,97 @@
+body {
+  margin: 0 10 0 10;
+}
+
+/*
+.container {
+  margin: 0 0 0 0;
+  max-width: 100%;
+  width: 90%;
+} */
+
+.container {
+  margin: 0 auto;
+  max-width: auto;
+  width: 100%;
+}
+
+.card {
+    border-radius: 15px;
+}
+
+.card-panel {
+  border-radius: 5px;
+  margin: 0rem 0rem 0rem 0rem;
+  font-family: 'Montserrat';
+  border-left: 10px;
+}
+
+.card .card-action {
+    border-radius: 8px 8px 0px 0px;
+}
+
+.btn, .btn-large, .btn-flat {
+  border-radius: 8px;
+}
+
+.nav .brand-logo {
+  font-size: 2.5rem;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+
+.icon-block .material-icons {
+	font-size: 2.5rem;
+}
+
+
+/* Tamanhos para ícones Material Design */
+.md-18 { font-size: 18px; }
+.md-24 { font-size: 24px; }
+.md-36 { font-size: 36px; }
+.md-48 { font-size: 48px; }
+.md-64 { font-size: 64px; }
+
+
+.purple {
+  background-color: #633342 !important;
+  color: #633342;
+}
+
+.marrom {
+  background-color: #B1733A !important;
+  color: #B1733A;
+}
+
+.lilas {
+  background-color: #FDF7ED !important;
+  color: #FDF7ED;
+}
+
+.purple-text {
+  color: #633342 !important;
+}
+
+.marrom-text {
+  color: #B1733A !important;
+}
+
+.lilas-text {
+  color: #FDF7ED !important;
+}
+
+/* Cores para ícones Material Design */
+.md-orange{
+  color:#FB8C00;
+}
+
+.md-blue-grey{
+  color:#607d8b;
+}
+
+.md-white{
+  color:#ffffff;
+}
+
