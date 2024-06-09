@@ -185,7 +185,41 @@
           c1
       </div>
       <div class="col s12 m6 l8 xl8" style="border: 1px solid blue;">
-            c2a
+        <form method="POST" action="" id="formContato">
+
+          <input type="hidden" name="origem" value="formContatoSite">
+    
+          <div class="card">
+                <div class="card-action flow-text lilas purple-text center-align">
+                    Contate-nos
+                </div>
+    
+              <div class="input-field" style="margin: 5% 3% 3% 3%">
+                <i class="material-icons prefix purple-text">perm_identity</i>
+                <label for="inputNome" class="black-text active">Nome</label>
+                <input type="text" name="inputNome" id="inputNome">
+              </div>
+    
+              <div class="input-field" style="margin: 5% 3% 3% 3%">
+                <i class="material-icons prefix purple-text">email</i>
+                <label for="inputEmail"class="black-text active">E-mail</label>
+                <input type="email" name="inputEmail" id="inputEmail">
+              </div>
+    
+              <div class="input-field" style="margin: 5% 3% 3% 3%">
+                <i class="material-icons prefix purple-text">mode_edit</i>
+                <label for="inputMensagem" class="black-text active">Mensagem</label>
+                <textarea name="inputMensagem" id="inputMensagem" style="min-height: 10rem; max-height: 10rem;" class="materialize-textarea"></textarea>
+              </div>
+    
+              <div id="mensagem" class=""></div>
+              
+              <div class="form-field center-align">
+                <button class="purple btn lilas-text" type="submit">Enviar</button><br><br>
+              </div>
+    
+          </div>
+        </form>
       </div>
     </div>
 
@@ -243,7 +277,7 @@
               </div>
     
           </div>
-          </form>
+        </form>
       </div>
     </div>
   </div>
