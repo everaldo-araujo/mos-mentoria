@@ -1,7 +1,7 @@
 body {
   margin: 0 0 0 0;
-  background-color: #633349;
 }
+
 
 /*
 .container {
@@ -9,6 +9,13 @@ body {
   max-width: 100%;
   width: 90%;
 } */
+
+.div-conteudo{
+  padding: 30px 30px 30px 50px;
+  /* border-radius: 10px; */
+  /* border: 1px solid black; */
+  margin: 0px;
+}
 
 .container {
   margin: 0 auto;
@@ -59,8 +66,9 @@ body {
 .md-36 { font-size: 36px; }
 .md-48 { font-size: 48px; }
 .md-64 { font-size: 64px; }
+.md-96 { font-size: 96px; }
+.md-128 {font-size: 128px;}
 .md-256 { font-size: 256px; }
-
 
 .purple {
   background-color: #633349 !important;
