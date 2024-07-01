@@ -28,9 +28,10 @@ body {
     border-radius: 15px;
 }
 
-.label-citacao{
+.apostrofo{
   font-family: 'Gwendolyn';
-  font-size: 100px;
+  font-size: 30rem;
+  font-weight: bold;
 }
 
 .card-panel {
