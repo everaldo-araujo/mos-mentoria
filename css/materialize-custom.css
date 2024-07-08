@@ -1,5 +1,5 @@
 body {
-  margin: 0 0 0 0;
+  margin: 0px;
 }
 
 
@@ -10,18 +10,33 @@ body {
   width: 90%;
 } */
 
+/* .row .col {
+  float: left;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  min-height: 0px;
+} */
+
 .div-conteudo{
   padding: 30px 30px 30px 50px;
-  /* border-radius: 10px; */
-  /* border: 1px solid black; */
   margin: 0px;
 }
 
+.div-banner{
+  padding: 0px;
+  margin: 0px;
+}
 
 .container {
   margin: 0 auto;
   max-width: auto;
   width: 100%;
+}
+
+.figure {
+  padding: 0px;
+  margin: 0px;
 }
 
 .card {
